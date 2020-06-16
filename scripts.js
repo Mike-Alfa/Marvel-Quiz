@@ -70,6 +70,7 @@ function load_question()
                 document.querySelector("#question").innerHTML = "Quiz Complete!";
                 document.querySelector("#correct").innerHTML = `${correct} of ${question_number}`;
                 options.innerHTML = "";
+                do
                 return false;
 
             }
